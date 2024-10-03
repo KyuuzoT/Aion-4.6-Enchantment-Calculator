@@ -90,10 +90,6 @@ button:focus {
   font-weight: bold;
 }
 
-/* .calculator__item-type input {
-  margin-right: 20px;
-} */
-
 label[for="rbtnHeroic"] {
   color: #38bdf8;
 }
@@ -125,7 +121,6 @@ label[for="rbtnMythical"] {
 
 .calculator-input__levels > div {
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   margin: 1rem 0;
@@ -152,7 +147,6 @@ label[for="rbtnMythical"] {
 .calculator-output__list-item div {
   padding: 5px 10px;
   flex: 1;
-  /*text-align: center;*/
 }
 
 .calculator-output__list-item:nth-child(even) {
